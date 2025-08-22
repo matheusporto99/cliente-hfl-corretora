@@ -14,7 +14,7 @@ const FinalCTASection = () => {
           {/* Left Column - Content */}
           <div className="space-y-8 fade-in-up">
             <h2 className="heading-section">
-              Proteja seu carro{" "}
+              Proteja seu carro&nbsp;
               <span className="text-primary">hoje mesmo</span>
             </h2>
             
@@ -49,11 +49,10 @@ const FinalCTASection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-8">
               <button className="btn-cta group">
-                Quero Minha Cotação Agora
-                <ArrowRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-              </button>
-              <button className="btn-secondary">
-                Falar com Especialista
+                <div className="flex flex-row">
+                  <ArrowRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+                  &nbsp;Quero Minha Cotação Agora
+                </div>
               </button>
             </div>
 
