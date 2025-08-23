@@ -36,7 +36,7 @@ const FeaturesSection = () => {
 
         {/* Main Feature Card */}
         <div className="mb-16 fade-in-up scale-in">
-          <div className="feature-card max-w-4xl mx-auto text-center">
+          <div className="feature-card max-w-4xl mt-16 mx-auto text-center">
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-primary/10 text-primary mb-8">
               <mainFeature.icon className="w-10 h-10" />
             </div>
