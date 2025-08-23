@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 lg:px-8 py-20">
         <div className="flex justify-center">
           {/* Content */}
-          <div className="space-y-8 fade-in-up scale-in max-w-4xl text-center">
+          <div className="space-y-8 fade-in-up scale-in max-w-4xl text-center flex flex-col">
             {/* Achievement Badge */}
             <div className="trust-badge scale-in">
               <Users className="w-5 h-5" />
@@ -22,30 +22,25 @@ const HeroSection = () => {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-hero max-w-2xl">
-              Explicamos cada detalhe do contrato para você não ser 
-              surpreendido. Vistoria online, orçamento rápido e cobertura 
-              imediata. Segurança contra roubo, furto e colisão — com 
+            <p className="text-hero max-w-[834px] mx-auto">
+              Explicamos cada detalhe do contrato para você não ser
+              surpreendido. Vistoria online, orçamento rápido e cobertura
+              imediata. Segurança contra roubo, furto e colisão — com
               atendimento pessoal em todas as etapas do sinistro.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="btn-cta">
+              <button className="btn-cta mx-auto">
                 Quero Minha Cotação Agora
               </button>
-              
+
             </div>
 
             {/* Social Metric */}
-            <div className="flex items-center gap-3 pt-8">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-primary text-primary" />)}
-              </div>
-              <span className="text-lg font-semibold text-muted-foreground">
-                +18 anos protegendo veículos em todo o Brasil
-              </span>
-            </div>
+            <span className="text-lg font-semibold text-muted-foreground mx-auto">
+              +18 anos protegendo veículos em todo o Brasil
+            </span>
           </div>
 
         </div>
