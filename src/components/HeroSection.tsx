@@ -1,4 +1,4 @@
-import { Star, Users } from "lucide-react";
+import { Users } from "lucide-react";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Gradient */}
